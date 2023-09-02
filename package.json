@@ -1,0 +1,16 @@
+{
+    "name": "s3-test",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Test Localstack S3",
+    "main": "test-upload.js",
+    "scripts": {
+        "start": "export NODE_PATH=./; node upload.js"
+    },
+    "author": "Randheer",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1450.0",
+        "dotenv": "^16.3.1"
+    }
+}
