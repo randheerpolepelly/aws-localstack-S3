@@ -8,7 +8,7 @@ const credentials = {
 
 const useLocal = process.env.NODE_ENV !== 'production'
 
-const bucketName = "user-profiles"
+const bucketName = "demo-bucket"
 
 const s3client = new AWS.S3({
    credentials,
